@@ -154,12 +154,11 @@ void MaxPriorityQueue::mySwap(int ind1, int ind2)
 {
 	int u = heap[ind1].second;
 	int v = heap[ind2].second;
-	int tmp = places[u - 1];
 	places[u - 1] = ind2;
 	places[v - 1] = ind1;
-	pair<int, int> temp = heap[ind1];
+	pair<int, int> tempPair = heap[ind1];
 	heap[ind1] = heap[ind2];
-	heap[ind2] = temp;
+	heap[ind2] = tempPair;
 }
 
 void MaxPriorityQueue::printHeap()

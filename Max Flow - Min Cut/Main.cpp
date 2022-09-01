@@ -3,13 +3,11 @@
 #include "MaxPriorityQueue.h"
 
 
-/*---------------------------------------------------------*/
-/*                                                         */
-/*                 Oshri Fadlon 208437046                  */
-/*                                                         */
-/*                  Ido Aviram 318599834                   */
-/*                                                         */
-/*---------------------------------------------------------*/
+/// The number of vertices must be entered first,
+/// Then the number of edges.
+/// An origin vertex of the algorithm followed by an end vertex.
+/// The input of the edges will be done in the following way :
+/// a start vertex followed by an end vertex and then the capacitance of this edge.
 
 
 #define BFS 'B'
