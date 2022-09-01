@@ -1,13 +1,26 @@
+/*---------------------------------------------------------*/
+/*                Ford-Fulkerson Algorithm                 */
+/*                                                         */
+/*                 Oshri Fadlon 208437046                  */
+/*                  Ido Aviram 318599834                   */
+/*---------------------------------------------------------*/
+
+
 #include <limits.h>
 #include "Graph.h"
 #include "MaxPriorityQueue.h"
 
 
-/// The number of vertices must be entered first,
-/// Then the number of edges.
-/// An origin vertex of the algorithm followed by an end vertex.
-/// The input of the edges will be done in the following way :
-/// a start vertex followed by an end vertex and then the capacitance of this edge.
+
+/*----------------------------------------- Explanation for running the program: -------------------------------------------------*/
+// - First, you must enter an integer (n) that represents the number of vertices in the graph.
+// - Then, an integer (m) that represents the number of edges in the graph.
+// - After that, two numbers must be inserted (each in a separate line), 
+//   the first number represents the starting vertex of the algorithm and the second number represents the ending vertex.
+// - Finally, m triples (the number of edges inserted earlier) must be taken in, each triple in a separate line, 
+//   where each triple is built like this:
+//   First number - origin vertex of the edge, second number - end vertex of the edge and third number - the capacity of the edge.
+/*---------------------------------------------------------------------------------------------------------------------------------*/
 
 
 #define BFS 'B'
